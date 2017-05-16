@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_journey_street" />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_toLeftOf="@+id/iv_street"
+        android:layout_alignTop="@+id/iv_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:visibility="invisible"
+        android:includeFontPadding="false"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="HUTAN KAMPUNG" />
+    <TextView
+        android:id="@+id/tv_parent"
+        android:layout_below="@+id/tv_name"
+        android:layout_toLeftOf="@+id/iv_street"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:visibility="invisible"
+        android:includeFontPadding="false"
+        android:layout_marginTop="-2dp"
+        android:textColor="#767575"
+        android:text="Toll Plaza" />
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_below="@+id/tv_parent"
+        android:layout_toLeftOf="@+id/iv_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:visibility="invisible"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="KM31.80" />
+    <ImageView
+        android:id="@+id/iv_triangle"
+        android:layout_alignLeft="@+id/iv_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:src="@drawable/ic_triangle" />
+    <TextView
+        android:id="@+id/tv_exit"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:background="#ffd100"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_half_margin"
+        android:paddingBottom="@dimen/activity_half_margin"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:text="E15" />
+    <ImageView
+        android:id="@+id/iv_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="128px"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_journey_whiteline" />
+</RelativeLayout>

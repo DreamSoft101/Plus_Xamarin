@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="25px"
+    android:id="@+id/lnlContent"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_weight="1">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout4">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout5"
+                    android:layout_weight="1">
+                    <TextView
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtTitle"
+                        android:textColor="@color/primary"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:ellipsize="end" />
+                    <TextView
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/txtDescription"
+                        android:textColor="@color/primaryText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="16dp" />
+                </LinearLayout>
+                <ImageView
+                    android:src="@drawable/ic_feedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@id/imgFeedback"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imgType"
+            android:padding="11dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="right">
+        <TextView
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLevel"
+            android:textColor="@color/secondaryText"
+            android:layout_weight="1"
+            android:visibility="gone" />
+        <TextView
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDateTime"
+            android:textColor="@color/secondaryText"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:visibility="gone" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/lnlShare"
+            android:gravity="center_horizontal|center_vertical">
+            <ImageView
+                android:src="@drawable/loy_ic_share"
+                android:id="@+id/imgShare"
+                android:padding="11dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

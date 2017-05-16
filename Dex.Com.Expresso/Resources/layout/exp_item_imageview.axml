@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="5dp"
+    android:background="@color/White">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="133dp"
+        android:layout_height="100dp"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:src="@drawable/loy_img_food01"
+            android:id="@+id/imgPicture"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prbLoading"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

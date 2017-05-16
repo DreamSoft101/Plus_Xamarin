@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2"
+            android:padding="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#8Ca3a3a3">
+            <ImageView
+                android:src="@drawable/loy_my_location"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imgShowHide"
+                android:layout_marginRight="10dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout3"
+                android:background="#C8FFFFFF" />
+            <ImageView
+                android:src="@drawable/loy_btn_mylocation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imgMyLocation" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

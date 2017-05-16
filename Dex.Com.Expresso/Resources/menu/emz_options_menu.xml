@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/options_menu_info"
+        android:icon="@drawable/ic_action_info"
+        android:showAsAction="ifRoom"
+        android:title="@string/info"
+        android:visible="@bool/enable_info_in_menu">
+    </item>
+    <item
+        android:id="@+id/options_menu_send_log"
+        android:title="@string/send_log"
+        android:visible="@bool/enable_send_log_in_menu">
+    </item>
+
+</menu>

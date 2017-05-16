@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/White">
+    <ImageView
+        android:src="@drawable/logo_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgLogo"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Expressway Malaysia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/primaryDark"
+        android:textSize="14sp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Version 2.0.9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@color/secondaryText"
+        android:layout_marginTop="32dp"
+        android:textSize="14sp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Developed For"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@color/secondaryText"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp" />
+    <ImageView
+        android:src="@drawable/ab_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:text="By"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp" />
+    <TextView
+        android:text="AVIVEN Sdn Bhd"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/primaryText" />
+    <TextView
+        android:text="Terms &amp; Conditions"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTerms"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/primaryText" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:visibility="gone">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/ripple_effect_nocircle">
+            <ImageView
+                android:src="@drawable/ic_about_web"
+                android:id="@+id/imageView1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:text="Simon-Systems.com"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/secondaryText" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/ripple_effect_nocircle">
+            <ImageView
+                android:src="@drawable/ic_about_mail"
+                android:id="@+id/imageView2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:text="enquiries@simon-systems.com "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/secondaryText" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:src="@drawable/ic_about_phone"
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:text="+603 2035 5983"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/secondaryText" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout5"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:src="@drawable/ic_about_place"
+                android:id="@+id/imageView4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:text="No.19-2, Jalan OP 1/2, One Puchong Entrepreneur Park, 47160 Puchong, Selangor Darul Ehsan. Malaysia "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/secondaryText" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

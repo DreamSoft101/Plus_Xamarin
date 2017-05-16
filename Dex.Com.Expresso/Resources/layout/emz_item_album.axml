@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:id="@+id/iv_album"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:id="@+id/iv_folder"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/emz_folder" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/iv_folder"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/iv_folder"
+            android:layout_alignTop="@+id/iv_folder"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:paddingBottom="5dp">
+            <TextView
+                android:id="@+id/tv_name_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KEMBARA"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/primaryDark"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/tv_munber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9 books"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/primaryDark"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

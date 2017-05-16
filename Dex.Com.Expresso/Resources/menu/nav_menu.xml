@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+      android:id="@+id/nav_home"
+      android:icon="@drawable/ic_home_2"
+      android:title="@string/home_menu_home" />
+
+  <item android:title="@string/exp_menu_plusexpressways">
+  </item>
+
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_favorite"
+      android:icon="@drawable/ic_home_2"
+      android:title="@string/home_menu_favorites" />
+    <item
+      android:id="@+id/nav_live_traffic"
+      android:icon="@drawable/ic_home_2"
+      android:title="@string/home_menu_livetraffic" />
+    <!--<item
+        android:id="@+id/nav_update"
+        android:icon="@drawable/ic_home_2"
+        android:title="@string/home_menu_update" />-->
+  
+    <item
+        android:id="@+id/nav_pointsofinterest"
+        android:icon="@drawable/ic_home_2"
+        android:title="@string/home_menu_pointsofinterest" />
+    <item
+        android:id="@+id/nav_tollfare"
+        android:icon="@drawable/ic_home_2"
+        android:title="@string/home_menu_tollfare" />
+    <item
+      android:id="@+id/nav_announcement"
+      android:icon="@drawable/ic_home_2"
+      android:title="@string/home_menu_announcement" />
+   
+    <item
+         android:id="@+id/nav_addaccount"
+         android:icon="@drawable/ic_home_1"
+         android:title="@string/AddAccount" />
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_home_1"
+        android:title="@string/home_menu_setting" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_home_2"
+        android:title="@string/home_menu_about" />
+    <item
+       android:id="@+id/nav_send_log"
+       android:icon="@drawable/ic_home_2"
+       android:title="Send Log" />
+    <item
+       android:id="@+id/nav__clear_log"
+       android:icon="@drawable/ic_home_2"
+       android:title="Clear Log" />
+  </group>
+
+  <item android:title="@string/exp_menu_plusranger">
+  </item>
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_myreport"
+        android:icon="@drawable/ic_home_2"
+        android:title="@string/exp_menu_plusranger_report" />
+  </group>
+  
+  
+  
+  <item android:title="@string/loy_menu_plusmiles">
+  </item>
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_myaccount"
+        android:icon="@drawable/ic_home_2"
+        android:title="@string/loy_menu_myaccount" />
+    <item
+        android:id="@+id/nav_myevoucher"
+        android:icon="@drawable/ic_home_2"
+        android:title="@string/loy_menu_myvoucher" />
+    <item
+        android:id="@+id/nav_promotions"
+        android:icon="@drawable/ic_home_2"
+        android:title="@string/loy_menu_promotions" />
+    <item
+        android:id="@+id/nav_redemption"
+        android:icon="@drawable/ic_home_2"
+        android:title="@string/loy_menu_redemption" />
+    <item
+      android:id="@+id/nav_cart"
+      android:icon="@drawable/ic_home_2"
+      android:title="@string/loy_menu_redemptioncart" />
+    <item
+       android:id="@+id/nav_plusmiles"
+       android:icon="@drawable/ic_home_2"
+       android:title="@string/loy_menu_aboutplusmiles" />
+  
+  </group>
+</menu>

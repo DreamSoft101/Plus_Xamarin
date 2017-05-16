@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+      <item
+        android:id="@+id/nav_merchant_product"
+        android:icon="@drawable/ic_home_1"
+        android:title="@string/loy_menu_product_offer" />
+
+      <item
+       android:id="@+id/nav_myfavorite"
+       android:icon="@drawable/ic_home_1"
+       android:title="@string/loy_menu_favorite" />
+    
+    <item
+      android:id="@+id/nav_recently_view"
+      android:icon="@drawable/ic_home_1"
+      android:title="@string/loy_menu_recently_view" />
+    
+    <item
+       android:id="@+id/nav_whathot"
+       android:icon="@drawable/ic_home_1"
+       android:title="@string/loy_menu_whathot" />
+   
+    <item
+       android:id="@+id/nav_preference"
+       android:icon="@drawable/ic_home_1"
+       android:title="@string/loy_menu_preference" />
+    <item
+      android:id="@+id/nav_redemption"
+      android:icon="@drawable/ic_home_1"
+      android:title="@string/loy_menu_redemption" />
+    <item
+      android:id="@+id/nav_aboutprogram"
+      android:icon="@drawable/ic_home_1"
+      android:title="@string/loy_menu_aboutprogram" />
+    
+
+    <item
+      android:id="@+id/nav_accountinformation"
+      android:icon="@drawable/ic_home_1"
+      android:title="@string/loy_menu_accountinformation" />
+    
+    <item
+       android:id="@+id/nav_mycart"
+       android:icon="@drawable/ic_home_1"
+       android:title="@string/loy_menu_mycart" />
+    <item
+           android:id="@+id/nav_reference"
+           android:icon="@drawable/ic_home_1"
+           android:title="@string/loy_menu_reference" />
+    
+    <item
+    android:id="@+id/nav_login"
+    android:icon="@drawable/ic_home_1"
+    android:title="@string/loy_menu_login" />
+  </group>
+</menu>

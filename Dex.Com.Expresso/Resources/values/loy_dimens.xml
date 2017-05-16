@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <dimen name="loy_drawer_width">240dp</dimen>
+  <dimen name="loy_activity_horizontal_margin">10dp</dimen>
+  <dimen name="loy_activity_vertical_margin">7dp</dimen>
+  <dimen name="loy_activity_half_margin">4dp</dimen>
+  <dimen name="loy_padding_cardview">5dp</dimen>
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="loy_app_name">Beetle buck</string>
+  <string name="loy_drawer_open">Open</string>
+  <string name="loy_drawer_close">Close</string>
+  <string name="loy_menu_refresh">Refresh</string>
+  <string name="loy_fragment1">You are on Fragment 1</string>
+  <string name="loy_fragment2">You are on Fragment 2</string>
+  <string name="loy_Username">Username</string>
+  <string name="loy_Email">Email</string>
+  <string name="loy_Password">Password</string>
+  <string name="loy_ConfirmPassword">Confirm password</string>
+  <string name="loy_MobileNo">Mobile number</string>
+  <string name="loy_FirstName">First name</string>
+  <string name="loy_LastName">Last name</string>
+  <string name="loy_AddAccount">Add account</string>
+  <string name="loy_btn_login">Login</string>
+  <string name="loy_btn_cancel">Cancel</string>
+  <string name="loy_btn_register">Register</string>
+  <string name="loy_mess_createaccount">No account yet? Create one</string>
+  <string name="loy_btn_viewdetail">View detail</string>
+  <string name="loy_menu_login">Login</string>
+  <string name="loy_menu_voucher">e-Voucher gallery</string>
+  <string name="loy_menu_redemption">Redemption</string>
+  <string name="loy_menu_product_offer">Home</string>
+  <string name="loy_menu_logout">Logout</string>
+  <string name="loy_menu_aboutprogram">About program</string>
+  <string name="loy_menu_reference">Reference to Member</string>
+  <string name="loy_menu_favorite">My Favorites</string>
+  <string name="loy_menu_recently_view">Recently Viewed</string>
+  <string name="loy_menu_whathot">What\'s Hot</string>
+  <string name="loy_menu_preference">Preferences</string>
+  <string name="loy_menu_listmember">List members</string>
+  <string name="loy_menu_accountinformation">Account information</string>
+  <string name="loy_menu_mycart">My cart</string>
+  
+
+  <string name="loy_title_listmember">e-Voucher gallery</string>
+  <string name="loy_title_listmember"> ACCOUNT SUMMARY</string>
+  <string name="loy_title_redemptionhistory">Redemption history</string>
+  <string name="loy_title_accountinformation">Account information</string>
+  <string name="loy_title_accountsummary">Account summary</string>
+  <string name="loy_title_redemptiondetail">Redemption Details - {0}</string>
+  <string name="loy_title_aboutprogram">About program</string>
+  <string name="loy_title_redemption">Redemption product</string>
+  <string name="loy_title_review_rating">Review \u0026 Rating</string>
+  <string name="loy_title_login">Login</string>
+  <string name="loy_title_comment">Comment</string>
+  <string name="loy_title_addpreferences">Add Preferences</string>
+  <string name="loy_title_update">Update Data</string>
+  <string name="loy_title_linkaccount">Link to master account</string>
+  <string name="loy_title_recent">Recents</string>
+  <string name="loy_title_favorite">Favorite</string>
+  <string name="loy_title_mycart">My Cart</string>
+  <string name="loy_title_whathot">What\'s Hot</string>
+  <string name="loy_title_register_social">Register with social account</string>
+  
+  <string name="loy_reg_mess_input_username">Please input your username</string>
+  <string name="loy_reg_mess_input_password">Please input your password</string>
+  <string name="loy_reg_mess_confirmpass">Confirm password must be same password</string>
+  <string name="loy_reg_mess_input_email">Please input your email</string>
+  <string name="loy_reg_mess_success">Register success</string>
+
+
+  <string name="loy_btn_update">Update</string>
+  <string name="loy_btn_add">Add</string>
+  <string name="loy_btn_detail">Detail</string>
+  <string name="loy_btn_direction">Direction</string>
+  <string name="loy_btn_redemption">Add to cart</string>
+  <string name="loy_btn_confirm">Confirm</string>
+  <string name="loy_btn_submit">Submit</string>
+  <string name="loy_btn_next">Next</string>
+  <string name="loy_btn_previous">Previous</string>
+  <string name="loy_lbe_referencetype">Reference type</string>
+  <string name="loy_lbe_referenceno">Reference No.</string>
+  <string name="loy_btn_usenow">Use now</string>
+  
+  
+  <string name="loy_mess_update_download">Checking new data</string>
+  <string name="loy_mess_update_no_newdata">No new data</string>
+  <string name="loy_mess_update_number_newdata">{0} update record</string>
+  <string name="loy_mess_update_downloadfinish">Download finish</string>
+  <string name="loy_mess_update_finish">Update complete</string>
+  <string name="loy_mess_update_delete">Delete</string>
+  <string name="loy_mess_update_add">Add new</string>
+  <string name="loy_mess_update_update">Update</string>
+  <string name="loy_mess_update_title">New data is available</string>
+  <string name="loy_mess_feedback_waiting">Please waiting...</string>
+  <string name="loy_mess_no_location">This offer no location for direction</string>
+  <string name="loy_mess_function_not_available">This function isn\'t available</string>
+  <string name="loy_mess_splash_logan">Your guide to the best card promotions</string>
+  <string name="loy_mess_splash_signinwith">Sign in with</string>
+  <string name="loy_mess_splash_signinwithemail">&lt;u>Sign in with email&lt;/u></string>
+  <string name="loy_mess_splash_signig_or">or</string>
+  <string name="loy_mess_splash_signig_createaccount">&lt;u>create an account&lt;/u></string>
+  <string name="loy_mess_splash_withoutsignin">&lt;u>No thanks, let me browse without signing in&lt;/u></string>
+  <string name="loy_mess_order_succsess">Your oder is success. Thanks!</string>
+  
+  
+  <string name="loy_mess_preferences_text_title">Show me Merchant Offers valid only for these Cards</string>
+  <string name="loy_mess_preferences_text_filter">Bank Cards Filter for Merchant Offer</string>
+  <string name="loy_mess_preferences_exists">This member type is exist in your preferences</string>
+
+  <string name="loy_mess_comment_description">Description</string>
+  
+  
+  <string name="loy_format_distince">{0:0.00}km away</string>
+  <string name="loy_format_no_distince">#</string>
+  <string name="loy_format_offer">{0:0.0}%</string>
+  <string name="loy_format_point">{0} Points</string>
+  <string name="loy_format_quantity">Quantity: {0}</string>
+  <string name="loy_format_amount">Amount: {0}</string>
+  <string name="loy_format_status">Status: {0}</string>
+  <string name="loy_format_voucherno">Voucher No: {0}</string>
+  <string name="loy_format_date_time">dd MMM yyyy</string>
+  
+  <string name="loy_my_location">Your location</string>
+
+  <string name="loy_text_startbalancedate">Start Balance Date</string>
+  <string name="loy_text_openbalancepoints">Open Balance Points</string>
+  <string name="loy_text_endbalancepoints">End Balance Points</string>
+  <string name="loy_text_pointsearned">Points Earned</string>
+  <string name="loy_text_pointsredeem">Points Redeem</string>
+  <string name="loy_text_pointstransfer">Points Transfer</string>
+  <string name="loy_text_pointsadjusted">Points Adjusted</string>
+  <string name="loy_text_pointsexpired">Points Expired</string>
+  <string name="loy_text_yourbalance">Your points balance</string>
+  <string name="loy_text_pointredeem">Points Redeemed</string>
+
+
+  <string name="loy_text_contactname">Contact name</string>
+  <string name="loy_text_add1">Address 1</string>
+  <string name="loy_text_add2">Address 2</string>
+  <string name="loy_text_add3">Address 3</string>
+  <string name="loy_text_city">City</string>
+  <string name="loy_text_postcode">Postcode</string>
+  <string name="loy_text_state">State</string>
+  <string name="loy_text_country">Country</string>
+  <string name="loy_txt_Active">Active</string>
+  <string name="loy_txt_Used">Used</string>
+  <string name="loy_txt_Expired">Expired</string>
+  <string name="loy_txt_Dismissed">Dismissed</string>
+  <string name="loy_txt_Inactive">Inactive</string>
+  <string name="loy_txt_Pending">Pending</string>
+  <string name="loy_text_inprogress">Inprogress</string>
+  <string name="loy_text_cancel">Cancel</string>
+  <string name="loy_text_closed">Closed</string>
+  <string name="loy_text_shipping">Shipping</string>
+  <string name="loy_text_deliveried">Deliveried</string>
+
+  <string name="loy_redemption_text_referenceno">Reference Number</string>
+  <string name="loy_redemption_text_redemptiondate">Redemption Date</string>
+  <string name="loy_redemption_text_name">Name</string>
+  <string name="loy_redemption_text_status">Status</string>
+  <string name="loy_redemption_mess_notenoughtpoints">Your balance isn\'t enought points</string>
+
+  <string name="loy_authen_evoucher_password">Password</string>
+  <string name="loy_authen_evoucher_orscanQRcode">Or scan QRCode</string>
+  <string name="loy_authen_mess_wrongqrcode">QRCode is incorrect</string>
+  <string name="loy_authen_mess_wrongpassword">Password is incorrect</string>
+  <string name="loy_authen_mess_unlock">Please unlock evoucher is locked</string>
+  <string name="loy_authen_mess_cannot">Cannot redeem Evoucher and Physical Product</string>
+  
+  <string name="loy_menu_plusmiles">PLUSMiles</string>
+  <string name="loy_menu_myaccount">My Account</string>
+  <string name="loy_menu_myvoucher">My Vouchers</string>
+  <string name="loy_menu_promotions">Promotions</string>
+  <string name="loy_menu_redemption">Redemption</string>
+  <string name="loy_menu_redemptioncart">Redemption Cart</string>
+  <string name="loy_menu_aboutplusmiles">About PLUSMiles</string>
+  <string name="loy_text_cardnumber">Card Number</string>
+  <string name="loy_text_status">Status</string>
+  <string name="loy_text_expdate">Expiry Date</string>
+  <string name="loy_text_pointsummary">Points Summary</string>
+  <string name="loy_text_points_redeemed_tansfered_expired">Points Redeemed/Transfered/Expired</string>
+  <string name="loy_text_totalpoints">Total Points</string>
+
+  <string name="loy_title_plusmile_account">My Account</string>
+  <string name="loy_title_plusmile_promotions">Promotions</string>
+  <string name="loy_title_plusmile_redemption">Redemption</string>
+  <string name="loy_title_plusmile_mycart">My Cart</string>
+
+  <string name="loy_text_my_name">Full name</string>
+</resources>
+

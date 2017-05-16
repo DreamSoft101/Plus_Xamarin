@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lnlContent"
+    android:gravity="center_vertical"
+    android:padding="5dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5"
+        android:gravity="center_vertical">
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txtName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/primaryText"
+            android:textStyle="bold" />
+        <ImageView
+            android:src="@drawable/ic_rsa_signature"
+            android:id="@+id/imgRsa"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:text="KM 30"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/txtLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/secondaryText" />
+        <ImageView
+            android:src="@drawable/ic_rsa_food"
+            android:id="@+id/imgFood"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout7"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lnlFavorite"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:background="@drawable/bg_item_button_cover"
+            android:layout_marginRight="10dp">
+            <ImageView
+                android:src="@drawable/ic_favorite_border_black_48dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imgFavorite" />
+            <TextView
+                android:text="@string/btn_favorite"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_weight="1"
+                android:textColor="@color/secondaryText"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/ic_rsa_cctv"
+            android:id="@+id/imgCCTV"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+</LinearLayout>

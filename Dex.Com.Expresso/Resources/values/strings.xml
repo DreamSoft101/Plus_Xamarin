@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Expresso</string>
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="menu_refresh">Refresh</string>
+  <string name="fragment1">You are on Fragment 1</string>
+  <string name="fragment2">You are on Fragment 2</string>
+
+  <string name="home_menu_setting">Settings</string>
+  <string name="home_menu_about">About</string>
+  <string name="home_menu_tollfare">Toll Fare</string>
+  <string name="home_menu_favorites">Favorites</string>
+  <string name="home_menu_pointsofinterest">Points of Interest</string>
+  <string name="home_menu_livetraffic">Live Traffic</string>
+  <string name="home_menu_update">Update</string>
+  <string name="home_menu_announcement">Announcement</string>
+  <string name="home_menu_home">Home</string>
+
+  <string name="app_version">Version 1.0</string>
+  <string name="app_by">By</string>
+  <string name="app_by_company">Simon System</string>
+
+  <string name="toll_fare_classes">Class</string>
+  <string name="toll_fare_from">From</string>
+  <string name="toll_fare_to">To</string>
+  <string name="toll_mess_select_all">Please select all field</string>
+  <string name="toll_mess_notfound">Not found data</string>
+  <string name="toll_mess_select_different">From field  must different To field</string>
+  <string name="toll_fare_rate_format">{0:0.00} RM</string>
+  <string name="toll_fare_km_format">KM {0:0.00} </string>
+  <string name="toll_fare_btn_search">Search</string>
+  <string name="toll_fare_btn_vehicle_class">Vehicle Class</string>
+  <string name="toll_fare_btn_tv_toll_fare">Penang Bridge And Others</string>
+
+  <string name="setting_text_notification_title">PUSH NOTIFICATION - TRAFFIC UPDATE</string>
+  <string name="setting_mess_saved">Saved</string>
+
+  <string name="facilities_type_rsa">RSA</string>
+  <string name="facilities_type_facilities">Facilities</string>
+  <string name="facilities_type_rsa_signature">RSA Signature</string>
+  <string name="facilities_type_obr">OBR</string>
+  <string name="facilities_type_lay_by">Lay-By</string>
+  <string name="facilities_type_interchange">Interchange</string>
+  <string name="facilities_type_tunnel">Tunnel</string>
+  <string name="facilities_type_vista_point">Vista Point</string>
+  <string name="facilities_type_csc">CSC</string>
+  <string name="facilities_type_petrol_station">Petrol Station</string>
+  <string name="facilities_type_ssk">SSK</string>
+  <string name="facilities_type_plussmie">Plus smile</string>
+  <string name="facilities_type_vistapoint">Vista</string>
+  <string name="facilities_type_tunnel">Tunnel</string>
+  <string name="facilities_type_toll_plaza">Toll Plaza</string>
+  <string name="facilities_type_nearby">Nearby</string>
+  <string name="facilities_location_format">KM {0:0.00}</string>
+
+  <string name="btn_save">Save</string>
+  <string name="btn_share">Share</string>
+  <string name="btn_favorite">Favorite</string>
+  <string name="btn_update">Update</string>
+  <string name="btn_forgetpassword">Forgot password</string>
+
+  <string name="title_point_of_interest">Points of Interest</string>
+  <string name="title_tollfare">Toll Fare</string>
+  <string name="title_login">Login</string>
+  <string name="title_tollfare_result">Toll Fare</string>
+  <string name="title_setting">Settings</string>
+  <string name="title_about">About</string>
+  <string name="title_favorites">Favorites</string>
+  <string name="title_vehicle_classes">Vehicle Classes</string>
+  <string name="title_facility_detail">Location Information</string>
+  <string name="title_livetraffic">Live Traffic</string>
+  <string name="title_feedback">Feedback</string>
+  <string name="title_announcement">Announcement</string>
+  <string name="title_tite_announcement_detail">Announcement detail</string>
+  <string name="title_forgetpassword">Forgot Password</string>
+  <string name="facility_detail_location_format">Location: KM {0:00}</string>
+  <string name="facility_detail_distance_format">Distance: {0:#,#} km</string>
+
+
+  <string name="Username">Email</string>
+  <string name="Entities">Entities</string>
+  <string name="Password">Password</string>
+  <string name="ConfirmPassword">Confirm password</string>
+  <string name="MobileNo">Mobile number</string>
+  <string name="FirstName">First name</string>
+  <string name="LastName">Last name</string>
+  <string name="AddAccount">Add account</string>
+  <string name="btn_login">Login</string>
+  <string name="btn_cancel">Cancel</string>
+  <string name="btn_register">Register</string>
+  <string name="btn_useasanonymouse">Guest</string>
+  <string name="useasanonymouse">{0} - Guest</string>
+  <string name="mess_createaccount">New here? Sign Up</string>
+  <string name="mess_forgetpassword">Forgot password?</string>
+  <string name="mess_confirmpassword">Confirm password is incorrect</string>
+  <string name="mess_choose_entity">Please choose entity</string>
+  <string name="mess_input_email">Please input your email</string>
+  <string name="mess_input_password">Please input your password</string>
+  <string name="mess_already_login">You have already logined this account</string>
+  <string name="mess_please_waiting">Please wait load until finish</string>
+  <string name="title_choose_entity">Choose entity</string>
+  <string name="title_update">Update Data</string>
+  <string name="title_choose_filter_livetraffictype">Choose Live Traffic Type</string>
+
+  <string name="live_traffic_type_all">All</string>
+  <string name="live_traffic_road_closure">Road Closure</string>
+  <string name="live_traffic_major_disruption">Major Disruption</string>
+  <string name="live_traffic_incident">Incident</string>
+  <string name="live_traffic_roadworks">Roadworks</string>
+  <string name="live_traffic_weather">Weather</string>
+  <string name="live_traffic_alternative">Alternative</string>
+  <string name="live_traffic_speed_limit">Speed Limit</string>
+  <string name="live_traffic_future_event">Future Event</string>
+  <string name="live_traffic_future_road_closure">Future Road Closure</string>
+  <string name="live_traffic_future_roadwork">Future Roadwork</string>
+  <string name="live_traffic_rsa_closure">RSA Closure</string>
+  <string name="live_traffic_aes">AES</string>
+  <string name="live_traffic_alert">Alert</string>
+
+  <string name="live_traffic_listing">List items</string>
+  <string name="live_traffic_speed_level_1">Low</string>
+  <string name="live_traffic_speed_level_2">Normal</string>
+  <string name="live_traffic_speed_level_3">High</string>
+  <string name="live_traffic_notitle">No title</string>
+  <string name="live_traffic_nodescription">No description</string>
+
+  <string name="mess_update_download">Checking new data</string>
+  <string name="mess_update_no_newdata">No new data</string>
+  <string name="mess_update_number_newdata">{0} update record</string>
+  <string name="mess_update_downloadfinish">Download finish</string>
+  <string name="mess_update_finish">Update complete</string>
+  <string name="mess_update_delete">Delete</string>
+  <string name="mess_update_add">Add new</string>
+  <string name="mess_update_update">Update</string>
+  <string name="mess_update_title">New data is available</string>
+  <string name="mess_feedback_waiting">Please waiting...</string>
+  <string name="mess_feedback_inputcomment">Please input commrent</string>
+  <string name="mess_forgetpassword_pleaseinputemail">Please input your email</string>
+  <string name="hint_writeacomment">Write a comment...</string>
+  <string name="text_loading">Loading data...</string>
+  <string name="text_please_login">Please login your account first!</string>
+  <string name="exp_menu_plusexpressways">PLUS Expressways</string>
+  <string name="exp_dialog_title">Choose Highway</string>
+
+  <string name="exp_menu_plusranger">PLUS Ranger</string>
+  <string name="exp_menu_plusranger_report">My Reports</string>
+  <string name="btn_delete">Delete</string>
+  <string name="text_network">Please turn on network</string>
+  <string name="text_gps">Please turn on gps</string>
+  <string name="text_away">Your are {0:#,#}KM away</string>
+  <string name="title_choosehighway">Choose highway</string>
+  <string name="title_choosefavoritelocation">Choose favorite location</string>
+  <string name="title_plusranger">PLUS Ranger</string>
+  
+  <string name="title_livetrafficdetail">Live traffic Detail</string>
+
+
+  <string name="text_toll_plaza">Toll Plaza</string>
+  <string name="text_toll_fare">Toll Fare</string>
+  <string name="text_E_Magazine">E-Magazine</string>
+  <string name="text_rsa_layby">RSA &amp; Lay-by</string>
+  <string name="text_live_feed">Live Feed</string>
+  <string name="text_plus_miles">PLUSMiles</string>
+  <string name="text_plus_ranger">PLUSRanger</string>
+  <string name="text_annoucement">Announcement</string>
+  <string name="text_favourite">Favourite</string>
+  <string name="text_live_traffic">Live Traffic</string>
+  <string name="text_plusexpressway">Plus Expressways</string>
+  <string name="text_twister">PLUSTrafik Twitter</string>
+  <string name="text_emagazine">E-Magazine</string>
+  <string name="text_nodata">No data</string>
+  <string name="text_plusexpressways_sync">PLUS Expressways data sync</string>
+  <string name="text_plusmile_sync">PLUSMile data sync</string>
+  
+  <string name="text_settings">Settings</string>
+  <string name="text_contact_plus">Contact PLUS</string>
+  <string name="text_plus_link">PLUS Links</string>
+  <string name="text_help">Help</string>
+  <string name="text_about">About</string>
+
+  <string name="text_plus_twitter">PLUSTrafik Twitter</string>
+  <string name="text_select_highway">(Select Highway)</string>
+  <string name="text_select_type">(Select Live Traffic Type)</string>
+  <string name="text_select_favorite_road">(Select Favorite Road Stretch)</string>
+
+  <string name="txt_read_more">Read more</string>
+  <string name="txt_format_announcement_content">{0} - {1}</string>
+  <string name="txt_livefeed">Live Feed</string>
+  <string name="txt_highway">Highway</string>
+  <string name="txt_update">Updating...</string>
+  <string name="txt_format_openhour">Open from {0} to {1}</string>
+
+  <string name="text_lay_by">Lay-by</string>
+  <string name="text_cctv">CCTV</string>
+  <string name="text_terms">Terms &amp; Condiions</string>
+  <string name="text_plus_links">PLUS Links</string>
+
+  <string name="text_ourprogram">OUR PROGRAM</string>
+  <string name="text_faq">FAQ</string>
+
+  <string name="facilities_type_tollplaza">Tollplaza</string>
+  <string name="facilities_type_rsa">RSA</string>
+  <string name="facilities_type_pertrol">Pertrol</string>
+  <string name="facilities_type_csc">CSC</string>
+  <string name="facilities_type_tunnel">Tunnel</string>
+  <string name="facilities_type_visapoint">Visa Point</string>
+  <string name="facilities_type_visapoint">Visa Point</string>
+  <string name="dialog_title_facilities_choose_fac">Facilities</string>
+  <string name="dialog_title_facilities_choose_poi">Points Of Interest</string>
+  <string name="facilities_select_poi">(Select points of interest)</string>
+  <string name="facilities_select_fac">(Select facilities)</string>
+  <string name="dialog_title_plusranger_category">Category</string>
+
+  <string name="title_register">Register</string>
+
+  <string name="button_linkaccount">Link to master account</string>
+  <string name="mess_linkaccount">You need link to master account first!</string>
+
+  <string name="title_myvoucher">My Voucher</string>
+  <string name="title_all_voucher">All Voucher</string>
+  <string name="eStatement">E-Statement</string>
+  <string name="title_plusranger_add">New Ranger Report</string>
+  <string name="title_evoucher">E-Voucher</string>
+  <string name="title_about">About PLUSMiles</string>
+  <string name="mess_plusranger_selectcategory">(Select Category)</string>
+  <string name="title_cart">Redemption Cart</string>
+
+  <string name="mess_confirm">Confirm</string>
+  <string name="mess_confirm_logout">Do you really want to logout?</string>
+  <string name="toll_fare">TollFare</string>
+  <string name="mess_view_my_jour">View My Hourney</string>
+  <string name="mess_tollfare_r_to">To</string>
+  <string name="mess_tollfare_r_commingfrom">Coming From</string>
+
+  <string name="dialog_title_choosetollplaza">TollPlaza</string>
+  <string name="mess_search">Key value to search</string>
+  <string name="text_add_card_type">RFID TAG OR PLUSMILES CARD?</string>
+  <string name="text_add_card_no">RFID NO OR PLUSMILES MFG NUMBER</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="fill_horizontal|center_vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDark"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:layout_marginLeft="16dp" />
+        <TextView
+            android:text="Redemption No."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:textColor="@color/primaryDark"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+        <TextView
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:textColor="@color/primaryDark"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:textSize="14sp"
+            android:gravity="right" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:divider="@null"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lstItems" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prbLoading" />
+</LinearLayout>

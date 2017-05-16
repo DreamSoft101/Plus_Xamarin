@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"              
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="1dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="2dp"
+            android:id="@+id/cvRoot"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:orientation="vertical">
+      <LinearLayout
+             android:orientation="vertical"
+             android:minWidth="25px"
+             android:minHeight="25px"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/relativeLayout1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <Dex.Com.Expresso.Widgets.ScaleImageView
+              android:src="@drawable/loy_img_food01"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/imgProduct"
+              android:scaleType="centerCrop" />
+          <ImageView
+              android:src="@drawable/loy_ic_lock"
+              android:layout_width="48dp"
+              android:layout_height="48dp"
+              android:id="@+id/imgLock"
+              android:layout_alignParentRight="true"
+              android:layout_margin="5dp"
+              android:padding="11dp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4"
+            android:layout_alignParentBottom="false"
+            android:layout_alignBottom="@id/imgProduct"
+            
+            android:background="@color/White">
+          <LinearLayout
+              android:orientation="horizontal"
+              android:minWidth="25px"
+              android:minHeight="25px"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/linearLayout1"
+              android:gravity="center_vertical">
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtProductName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/primaryDark"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPoints"
+                android:textColor="@color/primaryText"
+                android:textSize="14sp" />
+          </LinearLayout>
+          <LinearLayout
+              android:orientation="horizontal"
+              android:minWidth="25px"
+              android:minHeight="25px"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/linearLayout3"
+              >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/linearLayout2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+              <ImageView
+                  android:src="@drawable/loy_ic_subtract"
+                  android:layout_width="48dp"
+                  android:layout_height="48dp"
+                  android:id="@+id/imgSub"
+                  android:padding="11dp" />
+              <TextView
+                  android:text="Text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/txtQuanity"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textColor="@color/primaryText"
+                  android:textSize="14sp" />
+              <ImageView
+                  android:src="@drawable/loy_ic_more"
+                  android:layout_width="48dp"
+                  android:layout_height="48dp"
+                  android:id="@+id/imgMore"
+                  android:padding="11dp" />
+            </LinearLayout>
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtTotal"
+                android:gravity="center_vertical"
+                android:textColor="@color/primaryText"
+                android:textSize="14sp" />
+          </LinearLayout>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </android.support.v7.widget.CardView>
+  
+   
+</LinearLayout>

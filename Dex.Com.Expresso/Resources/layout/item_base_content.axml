@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lnlContent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:src="@drawable/brd0000000001"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imgIcon"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:text="JITRA-BKT KAYU HITAM PETRONAS"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName"
+                android:layout_margin="5dp"
+                android:textColor="@color/primaryText"
+                android:textStyle="bold" />
+            <TextView
+                android:text="KM 8.7"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLocation"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/secondaryText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="#f6f6f6">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lnlShare"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical">
+            <ImageView
+                android:src="@drawable/ic_share_black_48dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageView2" />
+            <TextView
+                android:text="Share"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/secondaryText" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lnlFavorite"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical">
+            <ImageView
+                android:src="@drawable/ic_favorite_border_black_48dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imgFavorite" />
+            <TextView
+                android:text="Favorite"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/secondaryText" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

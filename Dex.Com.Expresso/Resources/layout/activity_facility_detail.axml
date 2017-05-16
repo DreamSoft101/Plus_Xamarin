@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_layout">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            app:layout_scrollFlags="scroll|enterAlways" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="1dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="2dp"
+            android:id="@+id/cvRoot"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:id="@+id/linearLayout5">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/linearLayout6"
+                        android:layout_weight="1">
+                        <TextView
+                            android:text="Small Text"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txtHighwayName"
+                            android:textColor="@color/primaryDark"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:minWidth="25px"
+                            android:minHeight="25px"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/linearLayout4">
+                            <TextView
+                                android:text="Small Text"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/txtType"
+                                android:textColor="@color/primaryText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_marginLeft="16dp"
+                                android:textSize="14sp" />
+                            <TextView
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:id="@+id/txtLocation"
+                                android:textColor="@color/primaryText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="14sp"
+                                android:layout_marginRight="16dp" />
+                        </LinearLayout>
+                        <TextView
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txtDistance"
+                            android:textColor="@color/primaryText"
+                            android:layout_marginTop="5dp"
+                            android:visibility="gone" />
+                        <TextView
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txtOpenHour"
+                            android:textSize="14sp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:textColor="@color/secondaryText" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:id="@+id/linearLayout7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|center_vertical">
+                        <ImageView
+                            android:src="@drawable/ic_rsa_signature"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:id="@+id/imgSign"
+                            android:layout_marginRight="5dp"
+                            android:padding="11dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <HorizontalScrollView
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/horizontalScrollView"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="16dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/lnlcons"
+                        android:gravity="center_vertical" />
+                </HorizontalScrollView>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="1dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="2dp"
+            android:id="@+id/cvRoot"
+            android:layout_gravity="center_horizontal">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/frgContent"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <HorizontalScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView2"
+        android:layout_marginTop="16dp"
+        android:background="@color/loy_bgTitle">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/ic_cctv"
+                android:id="@+id/imgCCTV"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="11dp" />
+            <ImageView
+                android:src="@drawable/loy_ic_maps"
+                android:id="@+id/imgMap"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="11dp" />
+            <ImageView
+                android:src="@drawable/ic_facility_type11"
+                android:id="@+id/imgFood"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="11dp"
+                android:visibility="gone" />
+            <ImageView
+                android:src="@drawable/ic_directions_black_48dp"
+                android:id="@+id/imgDirection"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="11dp"
+                android:visibility="gone" />
+            <ImageView
+                android:src="@drawable/loy_ic_favorite_un"
+                android:id="@+id/imgFavorite"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="11dp" />
+            <ImageView
+                android:src="@drawable/ic_feedback"
+                android:id="@+id/imgFeedback"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="11dp"
+                android:visibility="gone" />
+            <ImageView
+                android:src="@drawable/loy_ic_share"
+                android:id="@+id/imgShare"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="11dp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

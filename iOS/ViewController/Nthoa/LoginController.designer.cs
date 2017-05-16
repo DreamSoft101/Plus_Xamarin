@@ -1,0 +1,95 @@
+﻿// WARNING
+//
+// This file has been generated automatically by Xamarin Studio from the outlets and
+// actions declared in your storyboard file.
+// Manual changes to this file will not be maintained.
+//
+using Foundation;
+using System;
+using System.CodeDom.Compiler;
+using UIKit;
+
+namespace PLUS.iOS
+{
+    [Register ("LoginController")]
+    partial class LoginController
+    {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnForgot { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnLogin { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnLoginFB { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnLoginGPlus { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnSignUp { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField txtEmail { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField txtPassword { get; set; }
+
+        [Action ("btnLoginClick:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btnLoginClick (UIKit.UIButton sender);
+
+        [Action ("btnLoginFBClick:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btnLoginFBClick (UIKit.UIButton sender);
+
+        [Action ("btnLoginGPlusClick:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btnLoginGPlusClick (UIKit.UIButton sender);
+
+        void ReleaseDesignerOutlets ()
+        {
+            if (btnForgot != null) {
+                btnForgot.Dispose ();
+                btnForgot = null;
+            }
+
+            if (btnLogin != null) {
+                btnLogin.Dispose ();
+                btnLogin = null;
+            }
+
+            if (btnLoginFB != null) {
+                btnLoginFB.Dispose ();
+                btnLoginFB = null;
+            }
+
+            if (btnLoginGPlus != null) {
+                btnLoginGPlus.Dispose ();
+                btnLoginGPlus = null;
+            }
+
+            if (btnSignUp != null) {
+                btnSignUp.Dispose ();
+                btnSignUp = null;
+            }
+
+            if (txtEmail != null) {
+                txtEmail.Dispose ();
+                txtEmail = null;
+            }
+
+            if (txtPassword != null) {
+                txtPassword.Dispose ();
+                txtPassword = null;
+            }
+        }
+    }
+}

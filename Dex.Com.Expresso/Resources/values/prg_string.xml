@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="prg_yourlocation">Your Current Location</string>
+  <string name="prg_category">Category</string>
+  <string name="prg_title">Title</string>
+  <string name="prg_desc">Description</string>
+  <string name="prg_yourcontactinformation">Your Contact Information</string>
+  <string name="prg_email">Email</string>
+  <string name="prg_mobile">Mobile number</string>
+  <string name="prg_submit">Submit</string>
+  <string name="prg_comment">Comment</string>
+</resources>

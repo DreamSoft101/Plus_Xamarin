@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="@string/title_choose_filter_livetraffictype"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:background="@color/primary"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl1"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_road_closure"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl2"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_major_disruption"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl3"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke3"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_incident"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl4"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke4"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_roadworks"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl5"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke5"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_weather"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl6"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke6"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_alternative"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl7"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke7"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_speed_limit"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView8" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl8"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke8"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_future_event"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl9"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke9"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_future_road_closure"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView10" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl10"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke10"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_future_roadwork"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl11"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke11"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_rsa_closure"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl12"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke12"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_aes"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView13" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lnl14"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cke14"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:src="@drawable/ic_menu_traffic_type14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="@string/live_traffic_alert"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView14" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:text="@string/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSave"
+        android:visibility="gone" />
+</LinearLayout>

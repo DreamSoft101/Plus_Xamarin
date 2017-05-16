@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:src="@drawable/loy_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:text="@string/loy_app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textStyle="bold" />
+    <TextView
+        android:text="@string/loy_mess_splash_logan"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:text="@string/loy_mess_splash_signinwith"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:src="@drawable/loy_btn_gplus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgGPlus"
+        android:layout_marginTop="5dp" />
+    <ImageView
+        android:src="@drawable/loy_btn_fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgFB"
+        android:layout_marginTop="5dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+        <TextView
+            android:text="@string/loy_mess_splash_signinwithemail"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtSignin" />
+        <TextView
+            android:text="@string/loy_mess_splash_signig_or"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:text="@string/loy_mess_splash_signig_createaccount"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtCreateAccount"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <TextView
+        android:text="@string/loy_mess_splash_withoutsignin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNoSigning"
+        android:layout_marginBottom="15dp" />
+</LinearLayout>
